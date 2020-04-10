@@ -43,12 +43,12 @@ class OfflineViewViewModel {
         Stream(title: "Apple FairPlay",
                posterName: "placeholder",
                posterUrl: "",
-               url: "https://fps.ezdrm.com/demo/video/ezdrm.m3u8",
+               url: "https://fps.ezdrm.com/demo/video/ezdrm2.m3u8",
                mimeType: "application/x-mpegURL",
                drm: Drm(
                     type: .ezDrm,
                     licenseUrl: "https://fps.ezdrm.com/api/licenses/09cc0377-6dd4-40cb-b09d-b582236e70fe",
-                    certificateUrl: "https://fps.ezdrm.com/demo/video/eleisure.cer")
+                    certificateUrl: "https://fps.ezdrm.com/demo/video/fps.cer")
                 )
     ]
 
